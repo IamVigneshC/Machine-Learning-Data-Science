@@ -1,11 +1,41 @@
 # Machine-Learning-Data-Science
 
+# Day 1
+
+https://dev.to/iamvigneshc/starting-my-data-science-machine-learning-journey-1j93
+
+
+## Types of Machine Learning
+
+Machine Learning Algorithms can be classified into 3 types as follows –
+
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+
+__Supervised learning__
+
+In Supervised Learning, the dataset on which we train our model is labeled. There is a clear and distinct mapping of input and output. Based on the example inputs, the model is able to get trained in the instances. An example of supervised learning is spam filtering. Based on the labeled data, the model is able to determine if the data is spam or ham. This is an easier form of training. Spam filtering is an example of this type of machine learning algorithm.
+
+__Unsupervised Learning__
+
+In Unsupervised Learning, there is no labeled data. The algorithm identifies the patterns within the dataset and learns them. The algorithm groups the data into various clusters based on their density. Using it, one can perform visualization on high dimensional data. One example of this type of Machine learning algorithm is the Principle Component Analysis. Furthermore, K-Means Clustering is another type of Unsupervised Learning where the data is clustered in groups of a similar order.
+
+The learning process in Unsupervised Learning is solely on the basis of finding patterns in the data. After learning the patterns, the model then makes conclusions.
+
+__Reinforcement Learning__
+
+Reinforcement Learning is an emerging and most popular type of Machine Learning Algorithm. It is used in various autonomous systems like cars and industrial robotics. The aim of this algorithm is to reach a goal in a dynamic environment. It can reach this goal based on several rewards that are provided to it by the system.
+
+It is most heavily used in programming robots to perform autonomous actions. It is also used in making intelligent self-driving cars. Let us consider the case of robotic navigation. Furthermore, the efficiency can be improved with further experimentation with the agent in its environment. This the main principle behind reinforcement learning. There are similar sequences of action in a reinforcement learning model.
+
 Machine learning algorithms build a model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed
 
 - Train the ML methods
 - Test the ML methods
 
 We predict using different ML methods and document and results.
+
 
 __Confusion matrix__ helps to compare different ML methods and decide which performs best. We represent the training and testing data and document the actuals vs predicted in a matrix form depending on the number of parameters involved
 
@@ -27,3 +57,5 @@ ROC (Receiver Operator Characteristic) graphs and AUC (the area under the curve)
 
 - ROC curve makes it easy to identify the best threshold for making a decision
 - AUC helps in deciding which categorization methos is better
+
+
