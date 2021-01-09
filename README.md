@@ -59,3 +59,10 @@ ROC (Receiver Operator Characteristic) graphs and AUC (the area under the curve)
 - AUC helps in deciding which categorization methos is better
 
 
+# Day 2
+
+Installing R Studio - https://rstudio.com/products/rstudio/download/
+
+1. Install R - https://cran.rstudio.com/
+2. Install R Studio Desktop - https://rstudio.com/products/rstudio/download/#download
+
