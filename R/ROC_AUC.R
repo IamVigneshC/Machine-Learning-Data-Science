@@ -1,12 +1,12 @@
 library(pROC) # install with install.packages("pROC")
 library(randomForest) # install with install.packages("randomForest")
 
-#######################################
-## Example: Modified - Thanks to StatQuest
-## Generate exam learning time and result datasets.
-##
-#######################################
-set.seed(420) # this will make my results match yours
+######################################################
+## Example: Modified - Thanks to StatQuest          ##
+## Generate learning time and exam result datasets. ##
+##                                                  ##
+######################################################
+set.seed(420) # random number generation ensures that you get the same result if you start with that same seed each time you run the same process
 
 num.samples <- 100
 
@@ -15,10 +15,8 @@ num.samples <- 100
 elearn <- sort(rnorm(n=num.samples, mean=50, sd=12))
 
 ## Now we will decide if a sample is pass or not. 
-## NOTE: This method for classifying a sample as pass or not
-## was made up just for this example.
 ## rank(elearn) returns 1 for the least time spent, 2 for the second least time, ...
-##              ... and it returns 100 for the highest time spent
+##              ... and it returns 100 for the highest time spent for exam preparation
 ## So what we do is generate a random number between 0 and 1. Then we see if
 ## that number is less than rank/100. So, for the least sample, rank = 1.
 ## This sample will be classified "pass" if we get a random number less than
@@ -34,7 +32,7 @@ pass ## print out the contents of "pass" to show us which samples were
 ## plot the data
 plot(x=elearn, y=pass)
 
-## fit a logistic regression to the data...
+## fit a logistic regression to the data
 glm.fit=glm(pass ~ elearn, family=binomial)
 lines(elearn, glm.fit$fitted.values)
 
@@ -45,8 +43,7 @@ lines(elearn, glm.fit$fitted.values)
 ##
 #######################################
 
-## NOTE: By default, the graphs come out looking terrible
-## The problem is that ROC graphs should be square, since the x and y axes
+## ROC graphs should be square, since the x and y axes
 ## both go from 0 to 1. However, the window in which I draw them isn't square
 ## so extra whitespace is added to pad the sides.
 roc(pass, glm.fit$fitted.values, plot=TRUE)
