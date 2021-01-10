@@ -11,7 +11,7 @@ set.seed(420) # this will make my results match yours
 num.samples <- 100
 
 ## generate 100 values from a normal distribution with
-## mean 172 and standard deviation 29, then sort them
+## mean 50 and standard deviation 12, then sort them
  <- sort(rnorm(n=num.samples, mean=50, sd=12))
 
 ## Now we will decide if a sample is pass or not. 
