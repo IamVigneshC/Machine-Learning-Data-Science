@@ -12,7 +12,7 @@ num.samples <- 100
 
 ## generate 100 values from a normal distribution with
 ## mean 50 and standard deviation 12, then sort them
- <- sort(rnorm(n=num.samples, mean=50, sd=12))
+elearn <- sort(rnorm(n=num.samples, mean=50, sd=12))
 
 ## Now we will decide if a sample is pass or not. 
 ## NOTE: This method for classifying a sample as pass or not
