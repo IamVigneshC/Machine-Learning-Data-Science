@@ -66,3 +66,11 @@ Installing R Studio - https://rstudio.com/products/rstudio/download/
 1. Install R - https://cran.rstudio.com/
 2. Install R Studio Desktop - https://rstudio.com/products/rstudio/download/#download
 
+
+# Day 3
+
+1. R Programming
+2. ROC and AUC Curves
+
+https://dev.to/iamvigneshc/self-study-data-science-machine-learning-journey-day-3-8op
+
