@@ -74,3 +74,12 @@ Installing R Studio - https://rstudio.com/products/rstudio/download/
 
 https://dev.to/iamvigneshc/self-study-data-science-machine-learning-journey-day-3-8op
 
+
+# Day 4
+
+1. Python Programming
+2. Descriptive Statistics
+
+https://dev.to/iamvigneshc/machine-learning-journey-day-4-python-descriptive-statistics-case-study-1dk5
+
+
