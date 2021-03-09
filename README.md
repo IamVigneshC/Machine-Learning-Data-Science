@@ -1,6 +1,6 @@
 # Machine-Learning-Data-Science
 
-# Day 1
+# Day 1:
 
 https://dev.to/iamvigneshc/starting-my-data-science-machine-learning-journey-1j93
 
@@ -59,7 +59,7 @@ ROC (Receiver Operator Characteristic) graphs and AUC (the area under the curve)
 - AUC helps in deciding which categorization methos is better
 
 
-# Day 2
+# Day 2:
 
 Installing R Studio - https://rstudio.com/products/rstudio/download/
 
@@ -67,7 +67,7 @@ Installing R Studio - https://rstudio.com/products/rstudio/download/
 2. Install R Studio Desktop - https://rstudio.com/products/rstudio/download/#download
 
 
-# Day 3
+# Day 3:
 
 1. R Programming
 2. ROC and AUC Curves
@@ -75,7 +75,7 @@ Installing R Studio - https://rstudio.com/products/rstudio/download/
 https://dev.to/iamvigneshc/self-study-data-science-machine-learning-journey-day-3-8op
 
 
-# Day 4
+# Day 4:
 
 1. Python Programming
 2. Descriptive Statistics
